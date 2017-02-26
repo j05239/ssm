@@ -145,7 +145,7 @@
       </plugin>
     </plugins>
 
-    <!--- 配置代码目录下的xml文件，没有此配置maven打好的war包会确实MyBatis对应的xml文件 -->
+    <!--- 配置代码目录下的xml文件，没有此配置maven打好的war包会缺少MyBatis对应的xml文件 -->
     <resources>
       <resource>
         <directory>src/main/java</directory>
