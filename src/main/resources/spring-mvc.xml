@@ -18,13 +18,6 @@
     <!-- 启动扫描所有的controller -->
     <context:component-scan base-package="com.loong.controller"/>
 
-    <!--    <mvc:annotation-driven />-->
-    <!--<mvc:message-converters>-->
-    <!--&lt;!&ndash; 避免IE执行AJAX时,返回JSON出现下载文件 &ndash;&gt;-->
-    <!--<bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"-->
-    <!--p:supportedMediaTypes-ref="mediaTypes"/>-->
-    <!--</mvc:message-converters>-->
-    <!--</mvc:annotation-driven>-->
     <mvc:annotation-driven></mvc:annotation-driven>
     <!-- JSON转换器支持的类型列表 -->
     <util:list id="mediaTypes">
