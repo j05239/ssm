@@ -3,7 +3,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
-  <display-name>e7paiapi</display-name>
+  <display-name>ssm</display-name>
 
   <!-- The front controller of this Spring Web application, responsible for handling all application requests -->
   <servlet>
@@ -62,7 +62,7 @@
   </context-param>
   <context-param>
     <param-name>webAppRootKey</param-name>
-    <param-value>e7paiapi.root</param-value>
+    <param-value>ssm.root</param-value>
   </context-param>
 
   <welcome-file-list>
