@@ -53,8 +53,6 @@
         <property name="minIdle" value="5" />
     </bean>
 
-
-
     <!--
         2. mybatis的SqlSession的工厂: SqlSessionFactoryBean dataSource:引用数据源
 
